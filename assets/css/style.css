@@ -108,3 +108,33 @@ header {
 #action .action_sec_container .action_img img{
     border-radius: 48px;
 }
+
+/* productive section css style  */
+#productive .productive-users{
+    justify-content: space-evenly;
+}
+#productive .productive-users-sec{
+    padding: 50px 80px;
+    background-color: #e5e7ff;
+    border-radius: 24px;
+}
+#productive .productive-title{
+    font-size: 38px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--secoundry-color);
+    margin-bottom: 40px;
+    text-align: center;
+}
+#productive .productive-users-sec .productive-users h4{
+    font-size: 80px;
+    font-family: var(--secoundry-font);
+    font-weight: 700;
+    color: var(--primary-color);
+}
+#productive .productive-users-sec .productive-users p{
+    color: #9d9faf;
+    font-size: 20px;
+    font-family: var(--secoundry-font);
+    text-align: center;
+}
