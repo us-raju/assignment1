@@ -7,10 +7,10 @@
 
 /* css variable  */
 :root {
-  --primary-color: #4e47FF;
-  --secoundry-color:#252432;
-  --primary-font:"raleway", sans-serif;
-  --secoundry-font:"inter", sans-serif;
+  --primary-color: #4e47ff;
+  --secoundry-color: #252432;
+  --primary-font: "raleway", sans-serif;
+  --secoundry-font: "inter", sans-serif;
 }
 
 /* common css style  */
@@ -18,67 +18,93 @@
   width: 1140px;
   margin: auto;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 ol,
 ul {
   list-style-type: none;
 }
 
-.btn-style{
-    font-size: 16px;
-    font-family: var(--primary-font);
-    font-weight: 700;
-    color: #ffffff;
-    padding: 12px 36px;
-    background-color: var(--primary-color);
-    border: none;
-    border-radius: 10px;
-    transition: .5s;
-    cursor: pointer;
+.btn-style {
+  font-size: 16px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  color: #ffffff;
+  padding: 12px 36px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.btn-style:hover{
-    background-color: green;
+.btn-style:hover {
+  background-color: green;
 }
 
 /* nav section css style  */
-header{
-    background-image: url(/assets/images/Hero-bg.png);
-    padding-bottom: 152px;
+header {
+  background-image: url(/assets/images/Hero-bg.png);
+  padding-bottom: 90px;
 }
-#nagivation{
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0;
-    margin-bottom: 158px;
+#nagivation {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  margin-bottom: 158px;
 }
-#nagivation .logo{
-    font-size: 34px;
-    color: var(--primary-color);
-    font-family: var(--secoundry-font);
-    font-weight: 700;
+#nagivation .logo {
+  font-size: 34px;
+  color: var(--primary-color);
+  font-family: var(--secoundry-font);
+  font-weight: 700;
 }
 
 /* banner section css style  */
-#banner .banner_txt{
-    width: 905px;
-    margin: auto;
-    
+#banner .banner_txt {
+  width: 905px;
+  margin: auto;
 }
-#banner .banner_txt h1{
-    color: var(--secoundry-color);
-    font-size: 65px;
-    font-family:var(--primary-color) ;
-    font-weight: 700;
-    text-align: center;
+#banner .banner_txt h1 {
+  color: var(--secoundry-color);
+  font-size: 65px;
+  font-family: var(--primary-color);
+  font-weight: 700;
+  text-align: center;
 }
-#banner .banner_txt a{
-    display: block;
-    text-align: center;
-    margin-top: 35px;
+#banner .banner_txt a {
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* action section css style  */
+#action {
+  padding: 116px 0;
+}
+#action .action_sec_container {
+  justify-content: space-between;
+}
+#action .action_sec_container .action_text {
+  width: 517px;
+}
+#action .action_sec_container .action_text h3 {
+  color: var(--secoundry-color);
+  font-size: 42px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+#action .action_sec_container .action_text p {
+  font-size: 24px;
+  font-family: var(--primary-font);
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+#action .action_sec_container .action_img img{
+    border-radius: 48px;
 }
